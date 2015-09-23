@@ -44,6 +44,14 @@ Fizz
 Fizz
 Buzz
 """
-a = int(input("How many numbers shall we print?))
+a = int(input("How many numbers shall we print? "))
 b = int(input("For multiples of what number shall we print 'Fizz'? "))
 c = int(input("For multiples of what number shall we print 'Buzz'? "))
+
+if x/b == x in range(1,a+1):
+    print("Fizz")
+elif x/c == x in range(1, a+1):
+    print("Buzz")
+elif for x in range(1,a+1):
+    print(x)
+   
