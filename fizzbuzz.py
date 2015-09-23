@@ -48,10 +48,11 @@ a = int(input("How many numbers shall we print? "))
 b = int(input("For multiples of what number shall we print 'Fizz'? "))
 c = int(input("For multiples of what number shall we print 'Buzz'? "))
 
-if x/b == x in range(1,a+1):
-    print("Fizz")
-elif x/c == x in range(1, a+1):
-    print("Buzz")
-elif for x in range(1,a+1):
+for x in range(1,a+1):
     print(x)
-   
+if x % b == 0 and x % c == 0:
+    print("FizzBuzz")
+elif x % b == 0:
+    print("Fizz:)
+elif x % c == 0:
+    print("Buzz")
